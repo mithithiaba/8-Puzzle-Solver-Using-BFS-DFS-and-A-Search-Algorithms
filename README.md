@@ -26,6 +26,8 @@ The 8-puzzle problem is a sliding puzzle consisting of a 3×3 grid with 8 number
         i. Mark it as visited.
         ii. Add it to the queue.
 5. If no solution is found, return failure.
+
+
 **Depth-First Search (DFS)**
 1. Start with the initial puzzle state.
 2. Add the initial state to a stack.
@@ -40,6 +42,8 @@ The 8-puzzle problem is a sliding puzzle consisting of a 3×3 grid with 8 number
           - If it is not visited:
             Add it to the stack.
 5. If no solution is found, return failure.
+
+
 **A Stear Search**
 1. Start with the initial puzzle state.
 2. Calculate:
@@ -59,7 +63,8 @@ The 8-puzzle problem is a sliding puzzle consisting of a 3×3 grid with 8 number
       i. Calculate g(n), h(n), and f(n).
       ii. Add the child state to the priority queue.
 5. If no solution is found, return failure.
-6. 
+
+   
 **Technologies Used**
 1. Python 3.x
 2. Tkinter (GUI)
